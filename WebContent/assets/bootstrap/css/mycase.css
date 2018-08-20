@@ -1,0 +1,91 @@
+.main {
+	min-width: 100%;
+}
+
+.body {
+	padding: 0;
+	margin: 0;
+}
+
+.note {
+	text-align: center;
+	color: #985F0D;
+}
+
+.example {
+	margin: 0 auto;
+	display: table;
+}
+
+.example li {
+	display: inline-block;
+	float: left;
+	padding: 5px 25px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 10px 10px 0px 10px;
+	border-radius: 4px;
+	background-color: transparent;
+	border: 1px solid transparent;
+}
+
+
+/*点击标签有背影*/
+
+.example li:hover {
+	background-color: transparent;
+	border: 1px solid #9b9b9b;
+}
+
+.example li.pitch,
+.example li.pitch:hover {
+	color: #fff;
+	background-color: #0088cc;
+	border: 1px solid #9b9b9b;
+}
+
+
+/*场景图片案例的布局*/
+
+
+.example-list li {
+	height: 300px;
+	display: inline-block;
+}
+
+.example-box {
+	margin: 20px;
+	text-align: center;
+}
+
+.example-img {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.example-h3 {
+	font-size: 18px;
+	line-height: 26px;
+	color: #0088cc;
+	font-weight: inherit;
+	margin: 10px 0;
+}
+
+.example-p {
+	text-align: left;
+	text-indent: 2em;
+	color: #737373;
+}
+.note-top{
+	display: inline-block;
+	text-align: right;
+	font-size: 25px;
+}
+
+.note-top:hover{
+	background-color:transparent;
+	border: 1px solid #9b9b9b;
+}
+

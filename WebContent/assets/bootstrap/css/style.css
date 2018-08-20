@@ -1,0 +1,138 @@
+/**
+ * 首页css
+ */
+
+.navbar{
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.navbar-brand , .navbar-brand>img{
+	padding: 0px;
+	margin: 0px;
+}
+.container ul{
+	margin-top: 5px;
+	
+}
+.img_box{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.carousel-inner >.item >img {
+	min-width: 100%;
+	height: 710px;
+}
+.carousel-inner >.item >h1{
+	font-size: 200px;
+}
+.go_detail {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.go_detail a {
+    color: #fff;
+    font-size: 22px;
+    background: #0b69f7;
+    padding: 12px 45px;
+    border-radius: 5px;
+    border: 0;
+    text-decoration:none
+}
+.listbox_caption{
+	font-size: 75px;
+}
+.pro_txt h3 {
+    font-size: 36px;
+    font-weight: normal;
+    color: #0088cc;
+    margin-top: 160px;
+}
+.pro_txt p {
+    color: #5f5f5f;
+    font-size: 20px;
+    line-height: 180%;
+    padding: 10px;
+}
+
+.footer-guild{
+    padding-top: 0;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+   /* background-color: red;*/
+}
+.footer h6 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+.footer, .footer-guild p {
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer-guild p a{
+	color: #bac1c8;
+}
+
+.footer, .footer p {
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer p{
+	margin-bottom: 0;
+}
+.footer {
+	text-align: center;
+    background-color: #333;
+    color: #bac1c8;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+/*.nav_header iframe{
+	height: 50px;
+	border: 0px;
+}
+.footer iframe{
+	height: 350px;
+}*/
+/*.head_iframe{
+	padding: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 49px;
+	position:fixed; top:0px;
+	border-bottom: 1px solid #ccc;
+	z-index: 999;
+}*/
+.footer-servie {
+    text-align: right;
+   /* margin: 0px;
+    padding: 0px;*/
+   margin-top: -20px;
+    /*background-color: #AFD9EE;*/
+}
+.H20 {
+	height: 20px;
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+.H10 {
+    height: 10px;
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+/*.clearfix{
+	background-color: blue;
+}*/
+
+.aa{
+	margin-left: 10px;
+}
+

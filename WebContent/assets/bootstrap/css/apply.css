@@ -1,0 +1,88 @@
+.top_img{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.title_h2{
+	font-size:35px ;
+	color: #444444;
+	font-family: "楷书";
+	letter-spacing: 2px;
+	margin-bottom: 2px;
+}
+.title_p{
+	font-size: 18px;
+	color:#777777;
+	letter-spacing: 1px;
+	font-family:default;
+}
+.cp{
+	margin-top: 0px;
+}
+.cont_h4{
+	color: #0088d5;
+}
+.cont_p{
+	color: #777777;
+}
+.cp_cont_img{
+	padding-top: 30px;
+	width: 55%;
+}
+.fangan{
+	padding-top: 10%;
+}
+.qj_cont{
+	padding-left: 60px;
+	padding-top: 100px;
+}
+.qj_bg{
+	width: 88%;
+	height: 570px;
+	background: url(../../img/HZS072202C.png) no-repeat;
+	background-size:100% 100% ;
+}
+.hzs_h4{
+	padding-left: 50px;
+	color: #555555;
+}
+.hzs_img{
+	width: 160px;
+	height: 75px;
+}
+.sqhz label{
+	font-size: 16px;
+	color: #5E5E5E;
+}
+.btn{
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	color: floralwhite;
+	font-family: "微软雅黑";
+}
+span{
+	padding-top: 5px;
+	font-size: 16px;
+}
+.gray_bc{
+	margin: 0px;
+	padding: 30px 0px ;
+	width: 100%;
+	height: 100%;
+	background-color: #EEEEEE;
+}
+.contact_h4{
+	color: #0088d5;
+	padding-left: 100px;
+}
+.contact_div strong{
+	color: #555555;
+	font-size: 15px;
+	line-height: 16px;
+}
+.contact_div p{
+	color:#5E5E5E;
+	font-size:14px ;
+	line-height: 15px;
+}

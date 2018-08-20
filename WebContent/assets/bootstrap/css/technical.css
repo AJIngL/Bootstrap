@@ -1,0 +1,46 @@
+.main{
+	min-width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.main1{
+	padding-top: 50px;
+}
+.main2{
+	padding-top: 50px;
+}
+.main3{
+	padding-top: 50px;
+	padding-left: 0px;
+}
+.main4{
+	padding-top: 50px;
+}
+.main4-1{
+	padding-top: 20px;
+}
+.main4-2{
+	padding-top: 20px;
+}
+.span{
+	padding-left: 100px 0px 0px 0px;
+}
+.system1 table tr td{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.system2 table tr td{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.system3 table tr td{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.nav-pills{
+	padding-left: 400px;
+	}
+.tab-pane tr td{
+	padding-top: 10px;
+	padding-left: 20px;
+}

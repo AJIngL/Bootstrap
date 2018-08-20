@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<!--先引用jq在引用bootstrap-->
+		<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+		<script type="text/javascript" src="../assets/bootstrap/js/jquery-1.11.1.min.js"></script>
+		<link rel="stylesheet" href="../assets/bootstrap/css/style.css" />
+		<script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		
+		<!--导航-->
+		<div class="head_iframe">
+			<iframe align="center" width="100%" height="50px" src="head.html" frameborder="no" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+		</div>
+		<!--     轮播图        -->
+		<div class="container img_box">
+			<!--
+				carousel:轮播图
+				slide:滑动
+			-->
+			<div class="carousel slide" id="my-carousel" data-ride="carousel">
+				<!--
+					游标点
+					carousel-indicators:游标样式
+				-->
+				<ol class="carousel-indicators">
+					<!-- 通过调用carousel js函数或者通过一些属性处理来实现
+						data-target:指定对应的轮播组件的id
+						#my-carousel:选择器语法，对应ID选择器，表示找到id为my-carousel的元素
+						data-slide-to:指定对应的图片索引号，索引号从0开始
+					-->
+					<li data-target="#my-carousel" data-slide-to="0"></li>
+					<li data-target="#my-carousel" data-slide-to="1"></li>
+					<li data-target="#my-carousel" data-slide-to="2"></li>
+				</ol>
+				<!--  
+					轮播图片
+					carousel-inner:图片的样式处理，会将对应的轮播图片放入一个dic中切换显示
+					item:轮播图
+					carousel-caption:图片上的标题处理
+					active:激活图片显示
+				  -->
+				<div class="carousel-inner" role="listbox">
+					
+					<div class="item  active">
+						<img src="../assets/img/03_dem_01.jpg" />
+						<div class="carousel-caption">
+							<p class="listbox_caption">爱快3.0&nbsp;&nbsp;&nbsp;如期而至</p>
+							<p>一次100到0的重建，一次0至1的蜕变，需要怎样的勇气</p>
+							<p>破茧为蝶的突破，只为挖掘更具价值的用户需求，更高的用户体验，唯有精雕细琢，我们别无选择</p>
+							<div class="go_detail">
+								<a href="#">了解详情</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<img src="../assets/img/02_background_2.jpg" />
+						
+					</div>
+
+					<div class="item">
+						<img src="../assets/img/lunbo1.png" />
+						
+					</div>
+				</div>
+				<!--
+					左右切换
+					1.添加a链接，并增加样式
+					2.字体图标使用规则：1.添加span 实现字体图标<>
+					data-slide函数的数据处理prev  next
+				-->
+				<a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		
+		
+		<!--   产品      -->
+		<div class="container product">
+			<div class="row item">
+				<div class="col-md-7">
+					<img class="img-responsive" src="../assets/img/29_indexB-img04.png" /><br />
+				</div>
+				<div class="col-md-5 pro_txt">
+					<h3>超赞的远程管理系统</h3>
+					<p>
+                   	 云平台集中管理
+                    <br/>智能云AC
+                    <br/>Portal认证配置
+                    <br/>图形化数据体现
+                    <br/>自定义JS通知插入
+                    <br/>第三方认证接口
+               	  </p>
+                  <p style=" font-size:18px; color:#0088cc;">更多,待你发现 ...</p>
+				</div>
+			</div>
+			
+			<div class="row item pro_bag">
+				<div class="col-md-5 pro_txt">
+					<h3>七层DPI流量管理</h3>
+					 <p>
+                    	看网页、看电影、玩游戏互不干扰<br>
+						多台终端同时上网不卡<br>
+						带宽利用最大化，绝不浪费带宽<br>
+						永远告别延迟卡顿<br>
+						3000款+应用识别<br>
+                  	</p>
+				</div>
+				<div class="col-md-7">
+					<img class="img-responsive" src="../assets/img/30_indexB-img01.png" /><br />
+				</div>
+			</div>
+			
+			<div class="row item">
+				<div class="col-md-7">
+					<img class="img-responsive" src="../assets/img/31_indexB-img02.png" /><br />
+				</div>
+				<div class="col-md-5 pro_txt">
+					<h3>五大功能</h3>
+					 <p>
+                    	多线路由<br>
+						一键流控<br>
+						免费AC管理<br>
+						自定义微信认证<br>
+						集中云管理
+                  	</p>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		
+		<!--尾部-->
+        <iframe align="center" width="100%" height="340px" src="foot.html"  frameborder="no" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+   		
+	</body>
+</html>

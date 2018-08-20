@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--先引用jq在引用bootstrap-->
+		<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+		<script type="text/javascript" src="../assets/bootstrap/js/jquery-1.11.1.min.js"></script>
+		<link rel="stylesheet" href="../assets/bootstrap/css/style.css" />
+		<script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<!--
+        	添加nav标签，添加nav navbar-default样式
+  		-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<!--conrainer表示容器
+				使用bootstrap的自适应布局，需要将组件放入div中，并且给div增加container的样式
+			-->
+			<div class="container">
+				<!-- 导航的标题-->
+				<div class="navbar-header">
+					<a target="_parent" class="navbar-brand" href="index.html">
+						<img alt="Brand" src="../assets/img/logo-big.png" />
+					</a>
+				</div>
+				<ul class="nav nav-pills  navbar-right">
+					<li class="active"><a target="_parent" href="index.html">首页</a></li>
+					<li><a target="_parent" href="product.html">产品服务</a></li>
+					<li><a target="_parent" href="mycase.html">场景案例</a></li>
+					<li><a target="_parent" href="apply.html">渠道合作</a></li>
+					<li><a target="_parent" href="technical.html">技术支持</a></li>
+					<li><a target="_parent" href="about.html">关于</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+	</body>
+</html>
